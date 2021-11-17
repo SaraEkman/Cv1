@@ -1,0 +1,32 @@
+.wrapper {
+  main {
+    article:first-child {
+      position: relative;
+      h1 {
+        position: absolute;
+        right: 50px;
+        top: 40px;
+      }
+    }
+    article:first-child {
+      padding-right: 20px;
+    }
+    .articleWrapper {
+      display: flex;
+      justify-content: space-between;
+      article {
+        width: 50%;
+      }
+    }
+    .links-wrapper {
+      article {
+        ul {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+}

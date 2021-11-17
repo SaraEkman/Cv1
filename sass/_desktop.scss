@@ -1,0 +1,36 @@
+main {
+  article:first-child {
+    padding-right: 20px;
+    position: relative;
+    h1 {
+      position: absolute;
+      right: 30%;
+      top: 3rem;
+      font-size: 3.5rem;
+    }
+  }
+  .articleWrapper {
+    display: flex;
+    justify-content: space-between;
+    article {
+      width: 50%;
+    }
+    article:first-child {
+      padding-right: 20px;
+    }
+  }
+
+  .links-wrapper {
+    display: flex;
+    article {
+      width: 50%;
+      ul {
+        display: flex;
+        justify-content: space-around !important;
+      align-items: center;
+        flex-wrap: wrap;
+        min-height: 5vh;
+      }
+    }
+  }
+}
